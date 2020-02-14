@@ -1,0 +1,116 @@
+/* Intro Screen */
+
+body {
+  padding: 1.5%;
+}
+
+.LinkOptions {
+  color: black;
+  font-size: 30px;
+}
+
+.CoachImageIntroduction {
+  height: 400px;
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 50%;
+}
+
+.CoachImageStory {
+  height: 400px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 60%;
+}
+
+.BtnProperties {
+  margin: 10px;
+  height: 50px;
+  width: 350px;
+}
+
+.BtnProperties:hover {
+  width: 360px;
+}
+
+.Ground {
+  height: 20px;
+  width: 100%;
+  position: relative;
+  margin-top: 60px;
+  background-color: grey;
+}
+
+/* Easy Screen */
+.EasyScreen {
+  background-color: lightgreen;
+}
+
+.CoachImage {
+  height: 350px;
+  position: absolute;
+  margin-left: 60%;
+}
+
+.CoachPadsImage {
+  height: 950px;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: -50px;
+}
+
+.BtnPropertiesHoriz {
+  height: 50px;
+  width: 225px;
+  margin-top: -20px;
+}
+
+.BtnPropertiesHoriz:hover {
+  font-size: 18px;
+}
+
+.GameStats {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+/* Med Screen */
+.MediumScreen {
+  background-color: skyblue;
+}
+
+/* Hard Screen */
+.HardScreen {
+  background-color: lightsalmon;
+}
+
+/* Story Mode */
+.StoryModeIntro {
+  background-color: Gold;
+}
+
+/* Opponent Select Mode */
+.OpponentSelectResetButton {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+.BtnPropertiesOpponentSelect {
+  color: black;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-left: 100px;
+  height: 70px;
+  width: 250px;
+}
+
+.BtnPropertiesOpponentSelect:hover {
+  width: 260px;
+}
+
+.OpponentSelectOpeningText {
+  margin-top: 100px;
+  margin-left: 150px;
+}
